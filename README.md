@@ -1,6 +1,6 @@
 # Python Kata Setup
 
-This is a generic setup for performing katas in Python.
+This is a generic setup for performing katas in _Python_.
 Once you start, you can replace this text with your specific kata instructions.
 
 ## Usage:
@@ -17,10 +17,18 @@ make help
 
 ### build
 
-Build the _docker_ container. Run it once to start working with the project.
+Build the _docker_ container. **Run this once to start working with the project.**
 
 ```shell
 make build
+```
+
+### version
+
+Display the _Python_ version.
+
+```shell
+make version
 ```
 
 ### test
